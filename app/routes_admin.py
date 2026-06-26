@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify, session, redirect, url_for, request
-from greenflux_packing.app.admin import get_packing_logs, get_operator_summary, get_daily_summary, get_recent_by_operator
+from app.admin import get_packing_logs, get_operator_summary, get_daily_summary, get_recent_by_operator
 
 admin_bp = Blueprint("admin", __name__, url_prefix="/admin")
 

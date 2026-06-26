@@ -1,4 +1,4 @@
-from greenflux_packing.app.db import query_all, query_one
+from app.db import query_all, query_one
 
 def get_packing_logs(limit: int = 200):
     return query_all(

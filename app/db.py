@@ -1,6 +1,6 @@
 import pymysql
 import pymysql.cursors
-from greenflux_packing.app.config import DBConfig
+from app.config import DBConfig
 
 def get_conn():
     return pymysql.connect(

@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, session, render_template
-from greenflux_packing.app.auth import authenticate_operator
-from greenflux_packing.app.scan import process_scan
-from greenflux_packing.app.config import Config
+from app.auth import authenticate_operator
+from app.scan import process_scan
+from app.config import Config
 
 scan_bp = Blueprint("scan", __name__)
 

@@ -1,5 +1,5 @@
 from datetime import datetime
-from greenflux_packing.app.db import query_one, get_conn
+from app.db import query_one, get_conn
 
 REQUIRED_STATIONS = ("progtest", "assembly", "fvi")
 

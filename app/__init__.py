@@ -1,7 +1,7 @@
 from flask import Flask
-from greenflux_packing.app.config import Config
-from greenflux_packing.app.routes_scan import scan_bp
-from greenflux_packing.app.routes_admin import admin_bp
+from app.config import Config
+from app.routes_scan import scan_bp
+from app.routes_admin import admin_bp
 
 def create_app():
     app = Flask(__name__, template_folder="../templates", static_folder="../static")

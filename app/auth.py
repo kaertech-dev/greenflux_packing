@@ -1,4 +1,4 @@
-from greenflux_packing.app.db import query_one
+from app.db import query_one
 
 def authenticate_operator(employee_num: str):
     """
